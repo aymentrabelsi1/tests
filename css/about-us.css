@@ -1,0 +1,211 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+#main-1 {
+    background-color: rgb(255, 255, 255);
+padding: 10px 20px;
+position: relative;
+color:black;
+}
+#main-1::before{content: "";
+background-color: rgba(4, 101, 15, 0.34);
+width: 100%;
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;}
+
+#p1{font-size: 1em;}
+#p2{font-size: 1em;}
+
+
+
+#more-id{
+    color: black;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;}   
+
+
+    #more-id::before{
+       content: "";
+        background-color: rgba(4, 101, 15, 0.34);
+width: 100%;
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+    }
+
+#main-2{background-color: rgb(0, 0, 0);
+flex-wrap: wrap;
+display: flex;
+padding: 0 3px;
+justify-content: center;
+gap: 3px;}
+
+#main-2 div{border: 1px solid white;
+    min-width: 21.9vw;
+    min-height: 14vw;
+    background: url();
+ flex-grow: 1;
+position: relative;
+overflow: hidden;
+transition: 0.4s ease-in-out;
+cursor: pointer;
+}
+
+
+
+#main-2 div:hover{scale: 0.94;}
+
+#main-2 div p{
+    background-color: rgba(0, 0, 0, 0.830);height: 100%;
+background-color: rgba(2, 24, 11, 0.771);
+position: absolute;
+left: 0;
+top: 0;
+color: white;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 20px;
+font-size: 1.3vw;
+transition: 0.2s ease-in-out;
+
+}
+
+#main-2 div:hover p{background: none;color: transparent;}
+
+
+
+#main-2 div:first-child{background-image: url(/first-image.png);
+background-size: cover;
+background-position: center;
+}
+
+
+@media (max-width:900px){
+    #main-2 div{
+        flex-grow: 1;
+        min-width: 30vw;
+        min-height: 20vw;
+    }
+    #main-2 div p{font-size: 1.8vw;}    
+    #p1{font-size: 1.6vw;}   
+    #p2{font-size: 1.6vw;}
+     
+
+}
+
+@media (max-width:600px){
+    #main-2 div{
+        flex-grow: 1;
+        min-width: 40vw;
+        min-height: 20vw;
+    }
+    #main-2 div p{font-size: 2.2vw;}       
+    #p1{font-size: 2.6vw;}  
+    #p2{font-size: 2.6vw;}
+
+}
+    
+
+
+
+
+#main-2 div:nth-child(2){background-image: url(/image-2.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+
+
+    #main-2 div:nth-child(3){background-image: url(/image-3.webp);
+        background-position: center;
+        background-size: cover;
+        }
+
+        
+#main-2 div:nth-child(4){background-image: url(/image-44.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    
+#main-2 div:nth-child(5){background-image: url(/image-5.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    
+#main-2 div:nth-child(6){background-image: url(/image-6.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    
+    
+    
+    #main-2 div:nth-child(7){background-image: url(/image-7.jpg);
+        background-position: center;
+        background-size: cover;
+        }
+    
+
+    
+        #main-2 div:nth-child(8){background-image: url(/image-8.png);
+            background-position: center;
+            background-size: cover;
+            }
+            
+    #main-2 div:nth-child(9){background-image: url(/image-9.png);
+        background-position: center;
+        background-size: cover;
+        }
+        
+        #main-2 div:nth-child(10){background-image: url(/image-10.png);
+            background-position: center;
+            background-size: cover;
+            }
+        
+
+                    
+        #main-2 div:nth-child(11){background-image: url(/image-11.png);
+            background-position: center;
+            background-size: cover;
+            }
+        
+                    
+        #main-2 div:nth-child(12){background-image: url(/image-12.png);
+            background-position: center;
+            background-size: cover;
+            }
+        
+                    
+        #main-2 div:nth-child(13){background-image: url(/image-13.png);
+            background-position: center;
+            background-size: cover;
+            }
+        
+                    
+        #main-2 div:nth-child(14){background-image: url(/image-14.png);
+            background-position: center;
+            background-size: cover;
+            }
+        
+                    
+        #main-2 div:nth-child(15){background-image: url(/image-15.png);
+            background-position: center;
+            background-size: cover;
+            }
+        
+            #main-2 div:nth-child(16){background-image: url(/image-16.png);
+                background-position: center;
+                background-size: cover;
+                }
+            
